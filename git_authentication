@@ -1,0 +1,8 @@
+git fatal: Authentication failed mac
+
+https://stackoverflow.com/questions/20195304/how-do-i-update-the-password-for-git
+Mac
+git config --global credential.helper osxkeychain
+
+Windows:
+git config --global credential.helper wincred
